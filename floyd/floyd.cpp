@@ -15,16 +15,6 @@ struct Graph {
     int numberOfNodes;
 };
 
-void printHelp() {
-    cout << "E necessario passar um arquivo de entrada para este programa, caso contrario ele nao sera executado." << endl;
-    cout << "Caso nao seja passado um arquivo de saida, sera criado um arquivo de saida de nome 'floyd-saida.txt'." << endl << endl;
-    cout << "Lista de comandos:" << endl << endl;
-    cout << "-h : mostra as informacoes sobre a execucao do programa." << endl;
-    cout << "-o <arquivo> : redireciona a saida para o 'arquivo'." << endl;
-    cout << "-f <arquivo> : indica o 'arquivo' que contem o grafo de entrada." << endl;
-    cout << "-s : mostra a solucao (em ordem crescente)." << endl;
-    exit(0);
-}
 
 vector<double> getEdgeValues(const string& fileLine) {
     vector<double> edgeValues(3, 0);
@@ -118,6 +108,17 @@ void floyd(const Graph& graph, bool print, ofstream* file) {
     }
 
     printResult(graph.numberOfNodes, distMatrix, predecessors, print, file);
+}
+
+void printHelp() {
+    cout << "É necessário passar um arquivo de entrada para este programa." << endl;
+    cout << "Caso não seja passado um arquivo de saída, será criado 'floyd-saida.txt'." << endl << endl;
+    cout << "Comandos:" << endl;
+    cout << "-h : Exibe informações sobre a execução e não executa o programa." << endl;
+    cout << "-o <arquivo> : Redireciona a saída para o 'arquivo'." << endl;
+    cout << "-f <arquivo> : Indica o 'arquivo' com o grafo de entrada." << endl;
+    cout << "-s : Mostra a solução (em ordem crescente)." << endl;
+    exit(0);
 }
 
 int main(int argc, char* argv[]) {

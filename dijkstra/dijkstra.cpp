@@ -5,15 +5,19 @@
 #include <string>
 #include <sstream>
 #include <map>
-#include <queue>
 #include <set>
 #include <iomanip>
+#include <algorithm>
 
 using namespace std;
 
 struct Node {
     int nodeId;
     double priority;
+
+    bool operator<(const Node& other) const {
+        return priority > other.priority;
+    }
 };
 
 struct Solution {
@@ -22,24 +26,15 @@ struct Solution {
     map<int, int> prevNode;
 };
 
-bool operator<(const Node& a, const Node& b) {
-    return a.priority > b.priority;
-}
-
 void printHelp() {
-    cout << "E necessario passar um arquivo de entrada para este programa, caso contrario ele nao sera executado." << endl;
-    cout << "E necessario passar um vertice inicial para este programa, caso contrario ele nao sera executado." << endl;
-    cout << "Caso nao seja passado um arquivo de saida, sera criado um arquivo de saida de nome 'dijkstra-saida.txt'." << endl << endl;
-    cout << "Lista de comandos:" << endl << endl;
-    cout << "-h : mostra as informacoes sobre a execucao do programa." << endl;
-    cout << "   Uma vez passado esse comando na execucao, o programa apenas exibira as informacoes e nao sera executado." << endl << endl;
-    cout << "-o <arquivo> : redireciona a saida para o 'arquivo'." << endl;
-    cout << "   Exemplo: ./dijkstra -o arquivo-saida.txt" << endl << endl;
-    cout << "-f <arquivo> : indica o 'arquivo' que contem o grafo de entrada." << endl;
-    cout << "   Exemplo: ./dijkstra -f arquivo-entrada.txt" << endl << endl;
-    cout << "-s : mostra a solucao." << endl << endl;
-    cout << "-i <vertice> : indica vertice inicial." << endl;
-    cout << "   Exemplo: ./dijkstra -i 3" << endl << endl;
+    cout << "É necessário passar um arquivo de entrada para este programa." << endl;
+    cout << "Caso não seja passado um arquivo de saída, será criado 'dijkstra-saida.txt'." << endl << endl;
+    cout << "Comandos:" << endl;
+    cout << "-h : Exibe informações sobre a execução e não executa o programa." << endl;
+    cout << "-o <arquivo> : Redireciona a saída para o 'arquivo'." << endl;
+    cout << "-f <arquivo> : Indica o 'arquivo' com o grafo de entrada." << endl;
+    cout << "-s : Mostra a solução." << endl;
+    cout << "-i <vertice> : Indica o vértice inicial." << endl;
 
     exit(0);
 }
@@ -150,18 +145,20 @@ void dijkstra(Solution& dijkstraSolution, const vector<vector<double>>& graph, i
         map<int, double> totalCost;
         map<int, int> prevNode;
         set<int> visited;
-        priority_queue<Node> priorityQueue;
+        vector<Node> heap;
 
         prevNode[initialVertex] = initialVertex;
-        priorityQueue.push(createNode(initialVertex, 0));
+        heap.push_back(createNode(initialVertex, 0));
 
         for (int i = 1; i <= numberOfNodes; ++i) {
             totalCost[i] = (i != initialVertex) ? HUGE_VAL : 0.0;
         }
 
-        while (!priorityQueue.empty()) {
-            Node currentNode = priorityQueue.top();
-            priorityQueue.pop();
+        while (!heap.empty()) {
+            make_heap(heap.begin(), heap.end());
+            Node currentNode = heap.front();
+            pop_heap(heap.begin(), heap.end());
+            heap.pop_back();
             visited.insert(currentNode.nodeId);
             vector<Node> neighbors = getNeighbors(graph, currentNode.nodeId);
 
@@ -171,7 +168,7 @@ void dijkstra(Solution& dijkstraSolution, const vector<vector<double>>& graph, i
                     if (newPriority < totalCost[neighbor.nodeId]) {
                         totalCost[neighbor.nodeId] = newPriority;
                         prevNode[neighbor.nodeId] = currentNode.nodeId;
-                        priorityQueue.push(createNode(neighbor.nodeId, newPriority));
+                        heap.push_back(createNode(neighbor.nodeId, newPriority));
                     }
                 }
             }
