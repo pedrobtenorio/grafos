@@ -31,7 +31,7 @@ Use o `make` para compilar o código.
 
 Após a compilação, execute o algoritmo com a opção `-h` para ver as instruções detalhadas de uso.
 
-    ./dijkstra.exe -h    # No Windows
+    ./dijkstra.bin -h    # No Windows
     ./dijkstra -h        # No Unix/Linux
 
 ## Observações
