@@ -1,19 +1,13 @@
-ifeq ($(OS),Windows_NT)
-output: prim.o
-	g++ prim.o -o prim.exe
+ifeq ($(shell uname), Linux)
 
-prim.o: prim.cpp
-	g++ -c prim.cpp
-
-clean:
-	del *.o *.exe
-else
-output: prim.o
+prim: prim.o
 	g++ prim.o -o prim
+	g++ prim.o -o prim.bin
 
 prim.o: prim.cpp
 	g++ -c prim.cpp
 
 clean:
-	rm *.o prim
+	rm *.o prim prim.bin
+
 endif

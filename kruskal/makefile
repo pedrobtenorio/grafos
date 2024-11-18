@@ -1,19 +1,13 @@
-ifeq ($(OS),Windows_NT)
-output: kruskal.o
-	g++ kruskal.o -o kruskal.exe
+ifeq ($(shell uname), Linux)
+
+kruskal: kruskal.o
+	g++ kruskal.o -o kruskal
+	g++ kruskal.o -o kruskal.bin
 
 kruskal.o: kruskal.cpp
 	g++ -c kruskal.cpp
 
 clean:
-	del *.o
-else
-output: kruskal.o
-	g++ kruskal.o -o kruskal.exe
+	rm *.o kruskal kruskal.bin
 
-kruskal.o: kruskal.cpp
-	g++ -c kruskal.cpp
-
-clean:
-	rm *.o
 endif

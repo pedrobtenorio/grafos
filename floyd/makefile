@@ -1,19 +1,13 @@
-ifeq ($(OS),Windows_NT)
-output: floyd.o
-	g++ floyd.o -o floyd.exe
+ifeq ($(shell uname), Linux)
+
+floyd: floyd.o
+	g++ floyd.o -o floyd
+	g++ floyd.o -o floyd.bin
 
 floyd.o: floyd.cpp
 	g++ -c floyd.cpp
 
 clean:
-	del *.o
-else
-output: floyd.o
-	g++ floyd.o -o floyd.exe
+	rm *.o floyd floyd.bin
 
-floyd.o: floyd.cpp
-	g++ -c floyd.cpp
-
-clean:
-	rm *.o
 endif

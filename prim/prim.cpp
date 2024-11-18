@@ -6,6 +6,8 @@
 #include <limits>
 #include <algorithm>
 #include <deque>
+#include <queue> 
+#include <functional>   
 
 using namespace std;
 
@@ -33,7 +35,7 @@ Graph readGraphFromFile(const string &filename) {
         }
         file.close();
     } else {
-        cerr << "Não foi possível abrir o arquivo de entrada." << endl;
+        cerr << "Nao foi possivel abrir o arquivo de entrada." << endl;
         exit(1);
     }
     return graph;
@@ -50,19 +52,15 @@ pair<int, edgeList> prim(const Graph &graph, int start) {
     int totalCost = 0;
     edgeList mstEdges;
 
-    vector<pqElement> pq;
-    pq.push_back({0, start});
-    make_heap(pq.begin(), pq.end(), greater<pqElement>());
+    priority_queue<pqElement, vector<pqElement>, greater<pqElement>> minHeap;
+    minHeap.push({0, start});
 
-    while (!pq.empty()) {
-        pop_heap(pq.begin(), pq.end(), greater<pqElement>());
-        int u = pq.back().second;
-        int weight = pq.back().first;
-        pq.pop_back();
+    while (!minHeap.empty()) {
+        int u = minHeap.top().second;
+        int weight = minHeap.top().first;
+        minHeap.pop();
 
-        if (inMST[u]) {
-            continue;
-        }
+        if (inMST[u]) continue;
 
         inMST[u] = true;
         totalCost += weight;
@@ -71,7 +69,6 @@ pair<int, edgeList> prim(const Graph &graph, int start) {
             mstEdges.push_back({parent[u], u});
         }
 
-        // Explore adjacent vertices
         for (const auto &neighbor : graph.adjList[u]) {
             int v = neighbor.first;
             int w = neighbor.second;
@@ -79,9 +76,7 @@ pair<int, edgeList> prim(const Graph &graph, int start) {
             if (!inMST[v] && w < minWeight[v]) {
                 minWeight[v] = w;
                 parent[v] = u;
-
-                pq.push_back({w, v});
-                push_heap(pq.begin(), pq.end(), greater<pqElement>());
+                minHeap.push({w, v});
             }
         }
     }
@@ -95,7 +90,7 @@ void writeCostToFile(const string &filename, int cost) {
         file << cost << endl;
         file.close();
     } else {
-        cerr << "Não foi possível abrir o arquivo de saída." << endl;
+        cerr << "Nao foi possivel abrir o arquivo de saida." << endl;
     }
 }
 
@@ -109,13 +104,13 @@ void printMST(const edgeList &mstEdges) {
 }
 
 void printHelp() {
-    cout << "É necessário passar um arquivo de entrada para este programa." << endl;
-    cout << "-h : mostra as informações sobre a execução do programa." << endl;
-    cout << "-o <arquivo> : redireciona a saída para o 'arquivo'." << endl;
-    cout << "   Caso esta opção não seja fornecida, o programa salvará o custo em 'prim.txt' por padrão." << endl;
-    cout << "-f <arquivo> : indica o 'arquivo' que contém o grafo de entrada." << endl;
-    cout << "-s : mostra a solução da Árvore Geradora Mínima na tela." << endl;
-    cout << "-i <vértice> : indica o vértice inicial. O padrão é o vértice 1." << endl;
+    cout << "E necessario passar um arquivo de entrada para este programa." << endl;
+    cout << "-h : mostra as informacoes sobre a execucao do programa." << endl;
+    cout << "-o <arquivo> : redireciona a saida para o 'arquivo'." << endl;
+    cout << "   Caso esta opcao nao seja fornecida, o programa salvara o custo em 'prim.txt' por padrao." << endl;
+    cout << "-f <arquivo> : indica o 'arquivo' que contem o grafo de entrada." << endl;
+    cout << "-s : mostra a solucao da Arvore Geradora Minima na tela." << endl;
+    cout << "-i <vertice> : indica o vertice inicial. O padrao e o vertice 1." << endl;
     exit(0);
 }
 
@@ -147,7 +142,7 @@ int main(int argc, char *argv[]) {
     }
 
     if (!startVertexProvided) {
-        cerr << "Erro: Vértice inicial não especificado. Utilize o parâmetro '-i <vértice>' para definir o vértice inicial." << endl;
+        cerr << "Erro: Vertice inicial nao especificado. Utilize o parametro '-i <vertice>' para definir o vertice inicial." << endl;
         return 1;
     }
 

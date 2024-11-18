@@ -44,7 +44,7 @@ Graph readGraphFromFile(const string &filename) {
         }
         file.close();
     } else {
-        cerr << "Não foi possível abrir o arquivo de entrada." << endl;
+        cerr << "Nao foi possivel abrir o arquivo de entrada." << endl;
         exit(1);
     }
     return graph;
@@ -80,7 +80,7 @@ void writeCostToFile(const string &filename, int cost) {
         file << cost << endl;
         file.close();
     } else {
-        cerr << "Não foi possível abrir o arquivo de saída." << endl;
+        cerr << "Nao foi possivel abrir o arquivo de saida." << endl;
     }
 }
 
@@ -94,15 +94,14 @@ void printMST(const edgeVector &mstEdges) {
 }
 
 void printHelp() {
-    cout << "É necessário passar um arquivo de entrada para este programa." << endl;
-    cout << "-h : mostra as informações sobre a execução do programa." << endl;
-    cout << "-o <arquivo> : redireciona a saída para o 'arquivo'." << endl;
-    cout << "   Caso esta opção não seja fornecida, o programa salvará o custo em 'kruskal.txt' por padrão." << endl;
-    cout << "-f <arquivo> : indica o 'arquivo' que contém o grafo de entrada." << endl;
-    cout << "-s : mostra a solução da Árvore Geradora Mínima na tela." << endl;
+    cout << "E necessario passar um arquivo de entrada para este programa." << endl;
+    cout << "-h : mostra as informacoes sobre a execucao do programa." << endl;
+    cout << "-o <arquivo> : redireciona a saida para o 'arquivo'." << endl;
+    cout << "   Caso esta opcao nao seja fornecida, o programa salvara o custo em 'kruskal.txt' por padrao." << endl;
+    cout << "-f <arquivo> : indica o 'arquivo' que contem o grafo de entrada." << endl;
+    cout << "-s : mostra a solucao da Arvore Geradora Minima na tela." << endl;
     exit(0);
 }
-
 
 int main(int argc, char *argv[]) {
     string inputFile, outputFile = "kruskal.txt";

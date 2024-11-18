@@ -1,19 +1,11 @@
-ifeq ($(OS),Windows_NT)
+ifeq ($(shell uname), Linux)
 output: dijkstra.o
-	g++ dijkstra.o -o dijkstra.exe
+	g++ dijkstra.o -o dijkstra
+	g++ dijkstra.o -o dijkstra.bin
 
 dijkstra.o: dijkstra.cpp
 	g++ -c dijkstra.cpp
 
 clean:
-	del *.o
-else
-output: dijkstra.o
-	g++ dijkstra.o -o dijkstra.exe
-
-dijkstra.o: dijkstra.cpp
-	g++ -c dijkstra.cpp
-
-clean:
-	rm *.o
+	rm *.o dijkstra dijkstra.bin
 endif

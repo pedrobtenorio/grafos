@@ -15,7 +15,6 @@ struct Graph {
     int numberOfNodes;
 };
 
-
 vector<double> getEdgeValues(const string& fileLine) {
     vector<double> edgeValues(3, 0);
     stringstream tempStream(fileLine);
@@ -66,17 +65,25 @@ void initializePredecessorMatrix(const Graph& graph, vector<vector<int>>& predec
     }
 }
 
-void printResult(int numberOfNodes, const matrix& distMatrix, const vector<vector<int>>& predecessors, bool print, ofstream* file) {
+void printResult(int numberOfNodes, matrix &distMatrix, vector<vector<int>> &predecesors, bool print, ofstream * file) {
+
     for(int i = 1; i <= numberOfNodes; i++) {
         for(int j = 1; j <= numberOfNodes; j++) {
-            if(distMatrix[i][j] != numeric_limits<double>::infinity()) {
+            if(distMatrix[i][j] != HUGE_VAL) {
                 if(i != j) {
-                    *file << "O menor custo de " << i << " para " << j << " é " << distMatrix[i][j] << "." << endl;
+                    (*(file)) << "O menor custo de " << i << " para " << j << " e " << distMatrix[i][j] << "." << endl;
                     if(print) {
-                        cout << "O menor custo de " << i << " para " << j << " é " << distMatrix[i][j] << "." << endl;
+                        cout << "O menor custo de " << i << " para " << j << " e " << distMatrix[i][j] << "." << endl;
                     }
                 }
-            } 
+            } else {
+                if(i != j) {
+                    (*(file)) << "Nao existe caminho de " << i << " para " << j << "." << endl;
+                    if(print) {
+                        cout << "Nao existe caminho de " << i << " para " << j << "." << endl;
+                    }
+                }
+            }
         }
     }
 }
@@ -111,13 +118,13 @@ void floyd(const Graph& graph, bool print, ofstream* file) {
 }
 
 void printHelp() {
-    cout << "É necessário passar um arquivo de entrada para este programa." << endl;
-    cout << "Caso não seja passado um arquivo de saída, será criado 'floyd-saida.txt'." << endl << endl;
+    cout << "E necessario passar um arquivo de entrada para este programa." << endl;
+    cout << "Caso nao seja passado um arquivo de saida, sera criado 'floyd-saida.txt'." << endl << endl;
     cout << "Comandos:" << endl;
-    cout << "-h : Exibe informações sobre a execução e não executa o programa." << endl;
-    cout << "-o <arquivo> : Redireciona a saída para o 'arquivo'." << endl;
+    cout << "-h : Exibe informacoes sobre a execucao e nao executa o programa." << endl;
+    cout << "-o <arquivo> : Redireciona a saida para o 'arquivo'." << endl;
     cout << "-f <arquivo> : Indica o 'arquivo' com o grafo de entrada." << endl;
-    cout << "-s : Mostra a solução (em ordem crescente)." << endl;
+    cout << "-s : Mostra a solucao (em ordem crescente)." << endl;
     exit(0);
 }
 
