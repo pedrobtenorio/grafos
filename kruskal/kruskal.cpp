@@ -76,6 +76,7 @@ pair<int, edgeVector> kruskal(Graph &graph) {
 
 void writeCostToFile(const string &filename, int cost) {
     ofstream file(filename);
+    cout << cost << endl;
     if (file.is_open()) {
         file << cost << endl;
         file.close();

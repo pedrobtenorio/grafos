@@ -86,6 +86,7 @@ pair<int, edgeList> prim(const Graph &graph, int start) {
 
 void writeCostToFile(const string &filename, int cost) {
     ofstream file(filename);
+    cout << cost << endl;
     if (file.is_open()) {
         file << cost << endl;
         file.close();
@@ -117,8 +118,7 @@ void printHelp() {
 int main(int argc, char *argv[]) {
     string inputFile, outputFile = "prim.txt";
     bool showSolution = false, fileOutput = false;
-    bool startVertexProvided = false;
-    int startVertex;
+    int startVertex = 1;
 
     for (int i = 1; i < argc; i++) {
         string arg = argv[i];
@@ -133,7 +133,7 @@ int main(int argc, char *argv[]) {
             showSolution = true;
         } else if (arg == "-i" && i + 1 < argc) {
             startVertex = stoi(argv[++i]) - 1;
-            startVertexProvided = true;
+
         }
     }
 
@@ -141,10 +141,6 @@ int main(int argc, char *argv[]) {
         printHelp();
     }
 
-    if (!startVertexProvided) {
-        cerr << "Erro: Vertice inicial nao especificado. Utilize o parametro '-i <vertice>' para definir o vertice inicial." << endl;
-        return 1;
-    }
 
     Graph graph = readGraphFromFile(inputFile);
     auto result = prim(graph, startVertex);
@@ -156,7 +152,7 @@ int main(int argc, char *argv[]) {
         printMST(mstEdges);
     }
 
-    if (fileOutput || !showSolution) {
+    else {
         writeCostToFile(outputFile, totalCost);
     }
 

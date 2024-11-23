@@ -181,7 +181,7 @@ int main(int argc, char* argv[]) {
     string outputFilePath = "dijkstra-saida.txt";
     bool printOutput = false;
     int numberOfNodes;
-    int initialVertex = -1;
+    int initialVertex = 1;
     vector<vector<double>> graph;
     Solution dijkstraSolution;
 

@@ -1,0 +1,552 @@
+O menor custo de 1 para 2 e 1.
+O menor custo de 1 para 3 e 41.
+O menor custo de 1 para 4 e 26.
+O menor custo de 1 para 5 e 6.
+O menor custo de 1 para 6 e 22.
+O menor custo de 1 para 7 e 49.
+O menor custo de 1 para 8 e 12.
+O menor custo de 1 para 9 e 5.
+O menor custo de 1 para 10 e 30.
+O menor custo de 1 para 11 e 27.
+O menor custo de 1 para 12 e 30.
+O menor custo de 1 para 13 e 8.
+O menor custo de 1 para 14 e 22.
+O menor custo de 1 para 15 e 1.
+O menor custo de 1 para 16 e 24.
+O menor custo de 1 para 17 e 14.
+O menor custo de 1 para 18 e 20.
+O menor custo de 1 para 19 e 14.
+O menor custo de 1 para 20 e 25.
+O menor custo de 1 para 21 e 7.
+O menor custo de 1 para 22 e 15.
+O menor custo de 1 para 23 e 21.
+Nao existe caminho de 1 para 24.
+Nao existe caminho de 2 para 1.
+O menor custo de 2 para 3 e 55.
+O menor custo de 2 para 4 e 25.
+O menor custo de 2 para 5 e 5.
+O menor custo de 2 para 6 e 21.
+O menor custo de 2 para 7 e 48.
+O menor custo de 2 para 8 e 11.
+O menor custo de 2 para 9 e 4.
+O menor custo de 2 para 10 e 29.
+O menor custo de 2 para 11 e 26.
+O menor custo de 2 para 12 e 29.
+O menor custo de 2 para 13 e 7.
+O menor custo de 2 para 14 e 21.
+O menor custo de 2 para 15 e 0.
+O menor custo de 2 para 16 e 23.
+O menor custo de 2 para 17 e 16.
+O menor custo de 2 para 18 e 19.
+O menor custo de 2 para 19 e 13.
+O menor custo de 2 para 20 e 24.
+O menor custo de 2 para 21 e 6.
+O menor custo de 2 para 22 e 27.
+O menor custo de 2 para 23 e 20.
+Nao existe caminho de 2 para 24.
+Nao existe caminho de 3 para 1.
+Nao existe caminho de 3 para 2.
+O menor custo de 3 para 4 e 64.
+O menor custo de 3 para 5 e 48.
+O menor custo de 3 para 6 e 20.
+O menor custo de 3 para 7 e 47.
+O menor custo de 3 para 8 e 54.
+O menor custo de 3 para 9 e 20.
+O menor custo de 3 para 10 e 62.
+O menor custo de 3 para 11 e 42.
+O menor custo de 3 para 12 e 27.
+O menor custo de 3 para 13 e 25.
+O menor custo de 3 para 14 e 37.
+O menor custo de 3 para 15 e 5.
+O menor custo de 3 para 16 e 3.
+O menor custo de 3 para 17 e 21.
+O menor custo de 3 para 18 e 5.
+O menor custo de 3 para 19 e 30.
+O menor custo de 3 para 20 e 40.
+O menor custo de 3 para 21 e 23.
+O menor custo de 3 para 22 e 32.
+O menor custo de 3 para 23 e 35.
+Nao existe caminho de 3 para 24.
+Nao existe caminho de 4 para 1.
+Nao existe caminho de 4 para 2.
+Nao existe caminho de 4 para 3.
+O menor custo de 4 para 5 e 76.
+O menor custo de 4 para 6 e 57.
+O menor custo de 4 para 7 e 66.
+O menor custo de 4 para 8 e 55.
+O menor custo de 4 para 9 e 42.
+O menor custo de 4 para 10 e 68.
+O menor custo de 4 para 11 e 33.
+O menor custo de 4 para 12 e 39.
+O menor custo de 4 para 13 e 26.
+O menor custo de 4 para 14 e 21.
+O menor custo de 4 para 15 e 10.
+O menor custo de 4 para 16 e 34.
+O menor custo de 4 para 17 e 24.
+O menor custo de 4 para 18 e 23.
+O menor custo de 4 para 19 e 33.
+O menor custo de 4 para 20 e 24.
+O menor custo de 4 para 21 e 33.
+O menor custo de 4 para 22 e 35.
+O menor custo de 4 para 23 e 25.
+Nao existe caminho de 4 para 24.
+Nao existe caminho de 5 para 1.
+Nao existe caminho de 5 para 2.
+Nao existe caminho de 5 para 3.
+Nao existe caminho de 5 para 4.
+O menor custo de 5 para 6 e 85.
+O menor custo de 5 para 7 e 81.
+O menor custo de 5 para 8 e 41.
+O menor custo de 5 para 9 e 83.
+O menor custo de 5 para 10 e 59.
+O menor custo de 5 para 11 e 75.
+O menor custo de 5 para 12 e 85.
+O menor custo de 5 para 13 e 39.
+O menor custo de 5 para 14 e 38.
+O menor custo de 5 para 15 e 6.
+O menor custo de 5 para 16 e 34.
+O menor custo de 5 para 17 e 22.
+O menor custo de 5 para 18 e 25.
+O menor custo de 5 para 19 e 8.
+O menor custo de 5 para 20 e 41.
+O menor custo de 5 para 21 e 1.
+O menor custo de 5 para 22 e 33.
+O menor custo de 5 para 23 e 26.
+Nao existe caminho de 5 para 24.
+Nao existe caminho de 6 para 1.
+Nao existe caminho de 6 para 2.
+Nao existe caminho de 6 para 3.
+Nao existe caminho de 6 para 4.
+Nao existe caminho de 6 para 5.
+O menor custo de 6 para 7 e 27.
+O menor custo de 6 para 8 e 34.
+O menor custo de 6 para 9 e 0.
+O menor custo de 6 para 10 e 49.
+O menor custo de 6 para 11 e 22.
+O menor custo de 6 para 12 e 25.
+O menor custo de 6 para 13 e 27.
+O menor custo de 6 para 14 e 17.
+O menor custo de 6 para 15 e 9.
+O menor custo de 6 para 16 e 2.
+O menor custo de 6 para 17 e 25.
+O menor custo de 6 para 18 e 19.
+O menor custo de 6 para 19 e 34.
+O menor custo de 6 para 20 e 20.
+O menor custo de 6 para 21 e 3.
+O menor custo de 6 para 22 e 26.
+O menor custo de 6 para 23 e 16.
+Nao existe caminho de 6 para 24.
+Nao existe caminho de 7 para 1.
+Nao existe caminho de 7 para 2.
+Nao existe caminho de 7 para 3.
+Nao existe caminho de 7 para 4.
+Nao existe caminho de 7 para 5.
+Nao existe caminho de 7 para 6.
+O menor custo de 7 para 8 e 78.
+O menor custo de 7 para 9 e 2.
+O menor custo de 7 para 10 e 51.
+O menor custo de 7 para 11 e 24.
+O menor custo de 7 para 12 e 27.
+O menor custo de 7 para 13 e 29.
+O menor custo de 7 para 14 e 11.
+O menor custo de 7 para 15 e 11.
+O menor custo de 7 para 16 e 24.
+O menor custo de 7 para 17 e 27.
+O menor custo de 7 para 18 e 13.
+O menor custo de 7 para 19 e 25.
+O menor custo de 7 para 20 e 9.
+O menor custo de 7 para 21 e 18.
+O menor custo de 7 para 22 e 28.
+O menor custo de 7 para 23 e 10.
+Nao existe caminho de 7 para 24.
+Nao existe caminho de 8 para 1.
+Nao existe caminho de 8 para 2.
+Nao existe caminho de 8 para 3.
+Nao existe caminho de 8 para 4.
+Nao existe caminho de 8 para 5.
+Nao existe caminho de 8 para 6.
+Nao existe caminho de 8 para 7.
+O menor custo de 8 para 9 e 88.
+O menor custo de 8 para 10 e 18.
+O menor custo de 8 para 11 e 82.
+O menor custo de 8 para 12 e 84.
+O menor custo de 8 para 13 e 37.
+O menor custo de 8 para 14 e 54.
+O menor custo de 8 para 15 e 27.
+O menor custo de 8 para 16 e 49.
+O menor custo de 8 para 17 e 43.
+O menor custo de 8 para 18 e 46.
+O menor custo de 8 para 19 e 34.
+O menor custo de 8 para 20 e 57.
+O menor custo de 8 para 21 e 27.
+O menor custo de 8 para 22 e 23.
+O menor custo de 8 para 23 e 26.
+Nao existe caminho de 8 para 24.
+Nao existe caminho de 9 para 1.
+Nao existe caminho de 9 para 2.
+Nao existe caminho de 9 para 3.
+Nao existe caminho de 9 para 4.
+Nao existe caminho de 9 para 5.
+Nao existe caminho de 9 para 6.
+Nao existe caminho de 9 para 7.
+Nao existe caminho de 9 para 8.
+O menor custo de 9 para 10 e 49.
+O menor custo de 9 para 11 e 22.
+O menor custo de 9 para 12 e 25.
+O menor custo de 9 para 13 e 27.
+O menor custo de 9 para 14 e 17.
+O menor custo de 9 para 15 e 9.
+O menor custo de 9 para 16 e 30.
+O menor custo de 9 para 17 e 25.
+O menor custo de 9 para 18 e 19.
+O menor custo de 9 para 19 e 34.
+O menor custo de 9 para 20 e 20.
+O menor custo de 9 para 21 e 16.
+O menor custo de 9 para 22 e 26.
+O menor custo de 9 para 23 e 16.
+Nao existe caminho de 9 para 24.
+Nao existe caminho de 10 para 1.
+Nao existe caminho de 10 para 2.
+Nao existe caminho de 10 para 3.
+Nao existe caminho de 10 para 4.
+Nao existe caminho de 10 para 5.
+Nao existe caminho de 10 para 6.
+Nao existe caminho de 10 para 7.
+Nao existe caminho de 10 para 8.
+Nao existe caminho de 10 para 9.
+O menor custo de 10 para 11 e 64.
+O menor custo de 10 para 12 e 79.
+O menor custo de 10 para 13 e 19.
+O menor custo de 10 para 14 e 67.
+O menor custo de 10 para 15 e 9.
+O menor custo de 10 para 16 e 31.
+O menor custo de 10 para 17 e 25.
+O menor custo de 10 para 18 e 28.
+O menor custo de 10 para 19 e 34.
+O menor custo de 10 para 20 e 61.
+O menor custo de 10 para 21 e 32.
+O menor custo de 10 para 22 e 5.
+O menor custo de 10 para 23 e 28.
+Nao existe caminho de 10 para 24.
+Nao existe caminho de 11 para 1.
+Nao existe caminho de 11 para 2.
+Nao existe caminho de 11 para 3.
+Nao existe caminho de 11 para 4.
+Nao existe caminho de 11 para 5.
+Nao existe caminho de 11 para 6.
+Nao existe caminho de 11 para 7.
+Nao existe caminho de 11 para 8.
+Nao existe caminho de 11 para 9.
+Nao existe caminho de 11 para 10.
+O menor custo de 11 para 12 e 44.
+O menor custo de 11 para 13 e 94.
+O menor custo de 11 para 14 e 80.
+O menor custo de 11 para 15 e 14.
+O menor custo de 11 para 16 e 31.
+O menor custo de 11 para 17 e 10.
+O menor custo de 11 para 18 e 28.
+O menor custo de 11 para 19 e 19.
+O menor custo de 11 para 20 e 26.
+O menor custo de 11 para 21 e 2.
+O menor custo de 11 para 22 e 21.
+O menor custo de 11 para 23 e 27.
+Nao existe caminho de 11 para 24.
+Nao existe caminho de 12 para 1.
+Nao existe caminho de 12 para 2.
+Nao existe caminho de 12 para 3.
+Nao existe caminho de 12 para 4.
+Nao existe caminho de 12 para 5.
+Nao existe caminho de 12 para 6.
+Nao existe caminho de 12 para 7.
+Nao existe caminho de 12 para 8.
+Nao existe caminho de 12 para 9.
+Nao existe caminho de 12 para 10.
+Nao existe caminho de 12 para 11.
+O menor custo de 12 para 13 e 85.
+O menor custo de 12 para 14 e 98.
+O menor custo de 12 para 15 e 82.
+O menor custo de 12 para 16 e 39.
+O menor custo de 12 para 17 e 89.
+O menor custo de 12 para 18 e 28.
+O menor custo de 12 para 19 e 60.
+O menor custo de 12 para 20 e 38.
+O menor custo de 12 para 21 e 68.
+O menor custo de 12 para 22 e 6.
+O menor custo de 12 para 23 e 29.
+Nao existe caminho de 12 para 24.
+Nao existe caminho de 13 para 1.
+Nao existe caminho de 13 para 2.
+Nao existe caminho de 13 para 3.
+Nao existe caminho de 13 para 4.
+Nao existe caminho de 13 para 5.
+Nao existe caminho de 13 para 6.
+Nao existe caminho de 13 para 7.
+Nao existe caminho de 13 para 8.
+Nao existe caminho de 13 para 9.
+Nao existe caminho de 13 para 10.
+Nao existe caminho de 13 para 11.
+Nao existe caminho de 13 para 12.
+O menor custo de 13 para 14 e 78.
+O menor custo de 13 para 15 e 51.
+O menor custo de 13 para 16 e 66.
+O menor custo de 13 para 17 e 55.
+O menor custo de 13 para 18 e 52.
+O menor custo de 13 para 19 e 64.
+O menor custo de 13 para 20 e 45.
+O menor custo de 13 para 21 e 55.
+O menor custo de 13 para 22 e 66.
+O menor custo de 13 para 23 e 46.
+Nao existe caminho de 13 para 24.
+Nao existe caminho de 14 para 1.
+Nao existe caminho de 14 para 2.
+Nao existe caminho de 14 para 3.
+Nao existe caminho de 14 para 4.
+Nao existe caminho de 14 para 5.
+Nao existe caminho de 14 para 6.
+Nao existe caminho de 14 para 7.
+Nao existe caminho de 14 para 8.
+Nao existe caminho de 14 para 9.
+Nao existe caminho de 14 para 10.
+Nao existe caminho de 14 para 11.
+Nao existe caminho de 14 para 12.
+Nao existe caminho de 14 para 13.
+O menor custo de 14 para 15 e 31.
+O menor custo de 14 para 16 e 13.
+O menor custo de 14 para 17 e 47.
+O menor custo de 14 para 18 e 2.
+O menor custo de 14 para 19 e 56.
+O menor custo de 14 para 20 e 3.
+O menor custo de 14 para 21 e 40.
+O menor custo de 14 para 22 e 37.
+O menor custo de 14 para 23 e 4.
+Nao existe caminho de 14 para 24.
+Nao existe caminho de 15 para 1.
+Nao existe caminho de 15 para 2.
+Nao existe caminho de 15 para 3.
+Nao existe caminho de 15 para 4.
+Nao existe caminho de 15 para 5.
+Nao existe caminho de 15 para 6.
+Nao existe caminho de 15 para 7.
+Nao existe caminho de 15 para 8.
+Nao existe caminho de 15 para 9.
+Nao existe caminho de 15 para 10.
+Nao existe caminho de 15 para 11.
+Nao existe caminho de 15 para 12.
+Nao existe caminho de 15 para 13.
+Nao existe caminho de 15 para 14.
+O menor custo de 15 para 16 e 30.
+O menor custo de 15 para 17 e 16.
+O menor custo de 15 para 18 e 19.
+O menor custo de 15 para 19 e 25.
+O menor custo de 15 para 20 e 52.
+O menor custo de 15 para 21 e 23.
+O menor custo de 15 para 22 e 27.
+O menor custo de 15 para 23 e 30.
+Nao existe caminho de 15 para 24.
+Nao existe caminho de 16 para 1.
+Nao existe caminho de 16 para 2.
+Nao existe caminho de 16 para 3.
+Nao existe caminho de 16 para 4.
+Nao existe caminho de 16 para 5.
+Nao existe caminho de 16 para 6.
+Nao existe caminho de 16 para 7.
+Nao existe caminho de 16 para 8.
+Nao existe caminho de 16 para 9.
+Nao existe caminho de 16 para 10.
+Nao existe caminho de 16 para 11.
+Nao existe caminho de 16 para 12.
+Nao existe caminho de 16 para 13.
+Nao existe caminho de 16 para 14.
+Nao existe caminho de 16 para 15.
+O menor custo de 16 para 17 e 58.
+O menor custo de 16 para 18 e 19.
+O menor custo de 16 para 19 e 53.
+O menor custo de 16 para 20 e 67.
+O menor custo de 16 para 21 e 29.
+O menor custo de 16 para 22 e 69.
+O menor custo de 16 para 23 e 54.
+Nao existe caminho de 16 para 24.
+Nao existe caminho de 17 para 1.
+Nao existe caminho de 17 para 2.
+Nao existe caminho de 17 para 3.
+Nao existe caminho de 17 para 4.
+Nao existe caminho de 17 para 5.
+Nao existe caminho de 17 para 6.
+Nao existe caminho de 17 para 7.
+Nao existe caminho de 17 para 8.
+Nao existe caminho de 17 para 9.
+Nao existe caminho de 17 para 10.
+Nao existe caminho de 17 para 11.
+Nao existe caminho de 17 para 12.
+Nao existe caminho de 17 para 13.
+Nao existe caminho de 17 para 14.
+Nao existe caminho de 17 para 15.
+Nao existe caminho de 17 para 16.
+O menor custo de 17 para 18 e 18.
+O menor custo de 17 para 19 e 9.
+O menor custo de 17 para 20 e 55.
+O menor custo de 17 para 21 e 31.
+O menor custo de 17 para 22 e 11.
+O menor custo de 17 para 23 e 34.
+Nao existe caminho de 17 para 24.
+Nao existe caminho de 18 para 1.
+Nao existe caminho de 18 para 2.
+Nao existe caminho de 18 para 3.
+Nao existe caminho de 18 para 4.
+Nao existe caminho de 18 para 5.
+Nao existe caminho de 18 para 6.
+Nao existe caminho de 18 para 7.
+Nao existe caminho de 18 para 8.
+Nao existe caminho de 18 para 9.
+Nao existe caminho de 18 para 10.
+Nao existe caminho de 18 para 11.
+Nao existe caminho de 18 para 12.
+Nao existe caminho de 18 para 13.
+Nao existe caminho de 18 para 14.
+Nao existe caminho de 18 para 15.
+Nao existe caminho de 18 para 16.
+Nao existe caminho de 18 para 17.
+O menor custo de 18 para 19 e 79.
+O menor custo de 18 para 20 e 99.
+O menor custo de 18 para 21 e 41.
+O menor custo de 18 para 22 e 97.
+O menor custo de 18 para 23 e 66.
+Nao existe caminho de 18 para 24.
+Nao existe caminho de 19 para 1.
+Nao existe caminho de 19 para 2.
+Nao existe caminho de 19 para 3.
+Nao existe caminho de 19 para 4.
+Nao existe caminho de 19 para 5.
+Nao existe caminho de 19 para 6.
+Nao existe caminho de 19 para 7.
+Nao existe caminho de 19 para 8.
+Nao existe caminho de 19 para 9.
+Nao existe caminho de 19 para 10.
+Nao existe caminho de 19 para 11.
+Nao existe caminho de 19 para 12.
+Nao existe caminho de 19 para 13.
+Nao existe caminho de 19 para 14.
+Nao existe caminho de 19 para 15.
+Nao existe caminho de 19 para 16.
+Nao existe caminho de 19 para 17.
+Nao existe caminho de 19 para 18.
+O menor custo de 19 para 20 e 46.
+O menor custo de 19 para 21 e 73.
+O menor custo de 19 para 22 e 44.
+O menor custo de 19 para 23 e 47.
+Nao existe caminho de 19 para 24.
+Nao existe caminho de 20 para 1.
+Nao existe caminho de 20 para 2.
+Nao existe caminho de 20 para 3.
+Nao existe caminho de 20 para 4.
+Nao existe caminho de 20 para 5.
+Nao existe caminho de 20 para 6.
+Nao existe caminho de 20 para 7.
+Nao existe caminho de 20 para 8.
+Nao existe caminho de 20 para 9.
+Nao existe caminho de 20 para 10.
+Nao existe caminho de 20 para 11.
+Nao existe caminho de 20 para 12.
+Nao existe caminho de 20 para 13.
+Nao existe caminho de 20 para 14.
+Nao existe caminho de 20 para 15.
+Nao existe caminho de 20 para 16.
+Nao existe caminho de 20 para 17.
+Nao existe caminho de 20 para 18.
+Nao existe caminho de 20 para 19.
+O menor custo de 20 para 21 e 57.
+O menor custo de 20 para 22 e 34.
+O menor custo de 20 para 23 e 1.
+Nao existe caminho de 20 para 24.
+Nao existe caminho de 21 para 1.
+Nao existe caminho de 21 para 2.
+Nao existe caminho de 21 para 3.
+Nao existe caminho de 21 para 4.
+Nao existe caminho de 21 para 5.
+Nao existe caminho de 21 para 6.
+Nao existe caminho de 21 para 7.
+Nao existe caminho de 21 para 8.
+Nao existe caminho de 21 para 9.
+Nao existe caminho de 21 para 10.
+Nao existe caminho de 21 para 11.
+Nao existe caminho de 21 para 12.
+Nao existe caminho de 21 para 13.
+Nao existe caminho de 21 para 14.
+Nao existe caminho de 21 para 15.
+Nao existe caminho de 21 para 16.
+Nao existe caminho de 21 para 17.
+Nao existe caminho de 21 para 18.
+Nao existe caminho de 21 para 19.
+Nao existe caminho de 21 para 20.
+O menor custo de 21 para 22 e 60.
+O menor custo de 21 para 23 e 25.
+Nao existe caminho de 21 para 24.
+Nao existe caminho de 22 para 1.
+Nao existe caminho de 22 para 2.
+Nao existe caminho de 22 para 3.
+Nao existe caminho de 22 para 4.
+Nao existe caminho de 22 para 5.
+Nao existe caminho de 22 para 6.
+Nao existe caminho de 22 para 7.
+Nao existe caminho de 22 para 8.
+Nao existe caminho de 22 para 9.
+Nao existe caminho de 22 para 10.
+Nao existe caminho de 22 para 11.
+Nao existe caminho de 22 para 12.
+Nao existe caminho de 22 para 13.
+Nao existe caminho de 22 para 14.
+Nao existe caminho de 22 para 15.
+Nao existe caminho de 22 para 16.
+Nao existe caminho de 22 para 17.
+Nao existe caminho de 22 para 18.
+Nao existe caminho de 22 para 19.
+Nao existe caminho de 22 para 20.
+Nao existe caminho de 22 para 21.
+O menor custo de 22 para 23 e 23.
+Nao existe caminho de 22 para 24.
+Nao existe caminho de 23 para 1.
+Nao existe caminho de 23 para 2.
+Nao existe caminho de 23 para 3.
+Nao existe caminho de 23 para 4.
+Nao existe caminho de 23 para 5.
+Nao existe caminho de 23 para 6.
+Nao existe caminho de 23 para 7.
+Nao existe caminho de 23 para 8.
+Nao existe caminho de 23 para 9.
+Nao existe caminho de 23 para 10.
+Nao existe caminho de 23 para 11.
+Nao existe caminho de 23 para 12.
+Nao existe caminho de 23 para 13.
+Nao existe caminho de 23 para 14.
+Nao existe caminho de 23 para 15.
+Nao existe caminho de 23 para 16.
+Nao existe caminho de 23 para 17.
+Nao existe caminho de 23 para 18.
+Nao existe caminho de 23 para 19.
+Nao existe caminho de 23 para 20.
+Nao existe caminho de 23 para 21.
+Nao existe caminho de 23 para 22.
+Nao existe caminho de 23 para 24.
+Nao existe caminho de 24 para 1.
+Nao existe caminho de 24 para 2.
+Nao existe caminho de 24 para 3.
+Nao existe caminho de 24 para 4.
+Nao existe caminho de 24 para 5.
+Nao existe caminho de 24 para 6.
+Nao existe caminho de 24 para 7.
+Nao existe caminho de 24 para 8.
+Nao existe caminho de 24 para 9.
+Nao existe caminho de 24 para 10.
+Nao existe caminho de 24 para 11.
+Nao existe caminho de 24 para 12.
+Nao existe caminho de 24 para 13.
+Nao existe caminho de 24 para 14.
+Nao existe caminho de 24 para 15.
+Nao existe caminho de 24 para 16.
+Nao existe caminho de 24 para 17.
+Nao existe caminho de 24 para 18.
+Nao existe caminho de 24 para 19.
+Nao existe caminho de 24 para 20.
+Nao existe caminho de 24 para 21.
+Nao existe caminho de 24 para 22.
+Nao existe caminho de 24 para 23.
